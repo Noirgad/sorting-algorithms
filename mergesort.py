@@ -24,6 +24,7 @@ def merge_sort(a):
 
     return merge(left, right)
 
+#testing the algorithm 
 f=[1,2,3,5,23,12,123,4,41,2,3,4,4,1,2,3,4,1,2,3,4,1,2,3]
 b = merge_sort(f)
 for item in b:
